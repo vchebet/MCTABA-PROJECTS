@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flex Calculator</title>
+  <link rel="stylesheet" href="flexcalc.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Flex Calculator</h1>
+
+    <label>Choose Operator:</label>
+    <select id="operator">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+    </select>
+
+    <label>Enter Numbers (comma separated):</label>
+    <input type="text" id="numbers" placeholder="e.g. 1,2,3,4">
+
+    <button id="calculateBtn">Calculate</button>
+
+    <h2 id="result">Result: </h2>
+  </div>
+
+  <script src="flexcalc.js" defer></script>
+</body>
+</html>
